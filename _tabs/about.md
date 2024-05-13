@@ -3,6 +3,5 @@
 icon: fas fa-info-circle
 order: 4
 ---
-
-> Add Markdown syntax content to file `_tabs/about.md`{: .filepath } and it will show up on this page.
-{: .prompt-tip }
+<h3>My name is Islam Essam</h3>
+<p>I'm a passionate cybersecurity enthusiast with a strong background in real-time security event monitoring and incident investigation. Skilled in managing and triaging incidents, I also possess a deep understanding of security control implementation and documentation. Currently seeking challenging opportunities to further enhance my efficiency and contribute to the success of a forward-thinking company.</p>
