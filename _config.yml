@@ -34,7 +34,7 @@ twitter:
 social:
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
-  name: islam essam 
+  name: Islam Essam 
   email: islamessam459@gmail.com # change to your email address
   links:
     # The first element serves as the copyright owner's link
@@ -44,7 +44,7 @@ social:
     # - https://www.facebook.com/username
     - https://www.linkedin.com/in/islam-3ssvm
 
-google_site_verification: google_meta_tag_verification # fill in to your verification string
+google_site_verification: google-site-verification=-bs0x1qEXEfAqHMnxBwDcWI4pTvzXmF-z7D84ThYI90 # fill in to your verification string
 
 # ↑ --------------------------
 # The end of `jekyll-seo-tag` settings
@@ -105,6 +105,9 @@ assets:
     # specify the Jekyll environment, empty means both
     # only works if `assets.self_host.enabled` is 'true'
     env: # [development|production]
+
+plugins:
+  - jekyll-sitemap
 
 pwa:
   enabled: true # the option for PWA feature
@@ -192,3 +195,4 @@ jekyll-archives:
   permalinks:
     tag: /tags/:name/
     category: /categories/:name/
+
