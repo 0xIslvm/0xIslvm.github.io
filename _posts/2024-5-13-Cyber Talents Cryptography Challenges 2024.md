@@ -70,6 +70,7 @@ let's encrypt it to ```sha-1```
 <img src="../assets/img/cyber talents cryptography/UP.png" alt="UP Challenge Image">
 <h2>UP</h2>
 <h3>Challenge Description</h3>
+
 `Every time you go up you will gain one ballon`
 ```python
 def increment_alphabet_by_index(s):
@@ -126,6 +127,12 @@ We need to analyze this message. by <a href="https://www.tunnelsup.com/hash-anal
 <h2><strong>Solution:</strong> flag{base64_is_n0t_s3cure}</h2>
 
 
-
+---------------------------------------------------------------------------------------
+<h1><strong>Challenge Name:</strong> Conjuring</h1>
+<img src="../assets/img/cyber talents cryptography/Conjuring img.png" alt="Conjuring Challenge Image">
+<h2>Conjuring</h2>
+`Pigpen Cipher` The Pig Pen Cipher, also known as the Freemason Cipher (or masonic alphabet), is an encryption system that was historically used by some members of Freemasonry to protect their communications. <img src="../assets/img/cyber talents cryptography/conjuring.png" alt="conjuring img Challenge Image">.
+<h5>we can decode it from <a href="https://www.dcode.fr/pigpen-cipher" target="_blank"> pigpen-ciphe</a> </h5> 
+<h2><strong>Solution:</strong> GHOSTSAREINTHESHELL</h2>
 
 ***Written by:```Islam Essam```***
