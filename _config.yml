@@ -70,7 +70,7 @@ theme_mode: # [light|dark]
 # will be added to all image (site avatar & posts' images) paths starting with '/'
 #
 # e.g. 'https://cdn.com'
-img_cdn: "https://0xAvatar.github.io/"
+img_cdn: 
 
 # the avatar on sidebar, support local or CORS resources
 avatar: https://i.pinimg.com/736x/0f/a3/37/0fa337284df0cc0242c7db680e5ee47a.jpg
