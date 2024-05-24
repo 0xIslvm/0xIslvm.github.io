@@ -15,7 +15,7 @@ tags:
 First step we need to analyze this hash. We can use <a href="https://www.tunnelsup.com/hash-analyzer/" target="_blank">Hash Analyzer</a> where we found it is an MD5 hash. We can decrypt it by using <a href="https://md5decrypt.net/en/" target="_blank">MD5 Decryptor</a>.
 
 # Solution: 
-> flag{Iamtheflag}
+> Iamtheflag
 >
 
 ---------------------------------------------------------------------------------------
