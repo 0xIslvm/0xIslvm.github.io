@@ -1,7 +1,7 @@
 ---
 title: Cyber Talents Cryptography Challenges 
 categories:
-- CTF
+- Cyber Talents
 date: '2024-5-12     13:0    3:22'
 tags:
 - ctf
