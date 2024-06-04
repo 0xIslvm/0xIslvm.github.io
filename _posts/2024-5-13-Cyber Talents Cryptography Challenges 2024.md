@@ -1,14 +1,17 @@
 ---
+published: true
 title: Cyber Talents Cryptography Challenges 
-categories:
-- CTF
+description: Cryptography Challenges cyber talents, Crack the Hash, RSA101, Guess The Password, Postbase, Hide Data, Hash3rror, UP, LOUDER, Encoding 1, Conjuring.
+categories: [CTF]
 date: '2024-5-12     13:0    3:22'
-tags:
-- ctf
+tags: [ctf ,cyber talents]
+pin: true
+math: true
+mermaid: true
+image:
+  path: "../assets/img/cyber talents cryptography/background.jpg"
+  alt: Cryptography challenges from Cyber talents..
 ---
-<div style="text-align: center;">
-    <img src="https://cybertalents.com/images/logo-big-black.png" alt="CyberTalents Logo">
-</div>
 
 ## Crack the Hash
 <img src="../assets/img/cyber talents cryptography/Crack the Hash.png" alt="Crack the Hash Challenge Image">
@@ -148,6 +151,3 @@ We need to analyze this message. by <a href="https://www.tunnelsup.com/hash-anal
 # Solution:
 > GHOSTSAREINTHESHELL
 >
-
-
-# Written by: *Islam Essam* 
