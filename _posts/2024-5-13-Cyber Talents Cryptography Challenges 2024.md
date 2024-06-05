@@ -33,7 +33,7 @@ After We Extract File we found two file Cipher-Text & Private-Key <img src="../a
 ---------------------------------------------------------------------------------------
 ## Guess The Password
 <img src="../assets/img/cyber talents cryptography/Guess The Pass.png" alt="Guess The Password Challenge Image">
-step1 we need to analyze this hash. We can use <a href="https://www.tunnelsup.com/hash-analyzer/" target="_blank">Hash Analyzer</a> where we found it is an SHA1 hash. We can decrypt it by using <a href="https://md5decrypt.net/en/Sha1/" target="_blank">sha-1 Decryptor</a>.
+step1 we need to analyze this hash. We can use <a href="https://www.tunnelsup.com/hash-analyzer/" target="_blank">Hash Analyzer</a> where we found it is an SHA1 hash. We can decrypt it by using. <a href="https://md5decrypt.net/en/Sha1/" target="_blank">sha-1 Decryptor</a>
 
 # Solution:
 > jrahyn+
