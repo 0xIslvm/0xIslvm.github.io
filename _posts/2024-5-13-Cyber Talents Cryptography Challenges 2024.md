@@ -94,7 +94,7 @@ let's encrypt it to ```sha-1```
 ---------------------------------------------------------------------------------------
 ## UP
 
-![UP Challenge Image](../assets/img/cyber talents cryptography/Hash3rror.png)
+![UP Challenge Image](../assets/img/cyber talents cryptography/UP.png)
 _UP_
 
 # Challenge Description :
