@@ -7,7 +7,9 @@ tags: [phishing ,analysis]
 pin: true
 math: true
 mermaid: true
-
+image:
+  path: "../assets/img/phishing/Phishing_Andrea_Danti_Alamy.jpg"
+  alt: Email Phishing Analysis
 ---
 ## Phishing mail analysis 
 
