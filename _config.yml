@@ -14,7 +14,7 @@ timezone: Asia/Shanghai
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: 0xAvatar↓ # the main title
+title: 0xIslam↓ # the main title
 
 tagline: Malware Analyst & Reverse Engineer # it will display as the sub-title
 
@@ -73,7 +73,7 @@ theme_mode:  # [light|dark]
 img_cdn: 
 
 # the avatar on sidebar, support local or CORS resources
-avatar: https://i.pinimg.com/736x/0f/a3/37/0fa337284df0cc0242c7db680e5ee47a.jpg
+avatar: https://drive.google.com/file/d/1szy8bV8g89KBC_pmDK5Y3toigzbDYvki/view?usp=sharing
 
 # boolean type, the global switch for TOC in posts.
 toc: true
