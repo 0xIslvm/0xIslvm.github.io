@@ -64,14 +64,13 @@ order: 4
   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/git/git-original.svg" height="48" alt="Git" />
 
   <!-- Reverse Engineering & Malware Analysis Tools -->
-  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/IDA_Pro_icon.png/600px-IDA_Pro_icon.png" height="48" alt="IDA Pro" />
-  <img src="https://avatars.githubusercontent.com/u/905098?s=200&v=4" height="48" alt="x64dbg" />
-  <img src="https://raw.githubusercontent.com/ReFirmLabs/binwalk/master/logo/binwalk-logo.png" height="48" alt="Binwalk" />
-  <img src="https://www.sweetscape.com/resources/images/logo-010-editor.png" height="48" alt="010 Editor" />
-  <img src="https://raw.githubusercontent.com/cuckoosandbox/cuckoo/master/doc/source/_static/cuckoo.png" height="48" alt="Cuckoo Sandbox" />
-  <img src="https://raw.githubusercontent.com/volatilityfoundation/volatility/master/resources/logo.png" height="48" alt="Volatility" />
-  <img src="https://upload.wikimedia.org/wikipedia/commons/8/85/Ghidra_Logo_Transparent.png" height="48" alt="Ghidra" />
-  <img src="https://upload.wikimedia.org/wikipedia/commons/d/d5/PeStudio_logo.png" height="48" alt="PEStudio" />
+  <img src="https://miro.medium.com/v2/0*yDDLaLj-bzfkssx4.png" height="48" alt="IDA Pro" />
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/Logo_OllyDbg.svg/2560px-Logo_OllyDbg.svg.png" height="48" alt="Ollydbg" />
+  <img src="https://www.kali.org/tools/binwalk/images/binwalk-logo.svg" height="48" alt="Binwalk" />
+  <img src="https://www.sweetscape.com/graphics/SwooshBig.png" height="48" alt="010 Editor" />
+  <img src="https://www.varonis.com/hs-fs/hubfs/Imported_Blog_Media/cuckoo_logo-1.png?width=640&height=233&name=cuckoo_logo-1.png" height="48" alt="Cuckoo Sandbox" />
+  <img src="https://ih1.redbubble.net/image.3316245335.2513/raf,360x360,075,t,fafafa:ca443f4786.jpg" height="48" alt="Ghidra" />
+  <img src="https://framerusercontent.com/images/GCAhnJB0NbPrKqK1jRldmQvHQVA.webp" height="48" alt="PEStudio" />
 </p>
 
 ---
