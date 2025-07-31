@@ -4,7 +4,7 @@ icon: fas fa-info-circle
 order: 4
 ---
 <div align="center">
-  <img src="https://media.licdn.com/dms/image/v2/D4D03AQGFcTBtkd7geQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1723178339596?e=1757548800&v=beta&t=IOV-P1nqf6BxIlBHwul1FKerRNu1yflLekr4MxM7Kk0" 
+  <img src="https://media.licdn.com/dms/image/v2/D4D03AQFUKvdTzXRruw/profile-displayphoto-crop_800_800/B4DZfmyfm.HAAI-/0/1751923689725?e=1756944000&v=beta&t=qtu_C49vu3nmv-STV0-sqMYTYTjJ2uKGc26_mgpUcT0" 
        alt="Islam Essam Profile Picture"
        style="width: 200px; height: 200px; border-radius: 50%; object-fit: cover; border: 2px solid #ccc;" />
 </div>
