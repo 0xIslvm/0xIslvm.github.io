@@ -1,17 +1,29 @@
 ---
-# the default layout is 'page'
+# The default layout is 'page'
 icon: fas fa-info-circle
 order: 4
 ---
+<style>
+img {
+  border: 0px solid transparent;
+  height: auto;
+}
+
+img:hover {
+  transform: scale(1.15);
+  border: 2px solid #007bff; /* Blue border on hover */
+  border-radius: 12px;
+}
+</style>
+
 <div align="center">
-  <img src="https://media.licdn.com/dms/image/v2/D4D03AQFUKvdTzXRruw/profile-displayphoto-crop_800_800/B4DZfmyfm.HAAI-/0/1751923689725?e=1756944000&v=beta&t=qtu_C49vu3nmv-STV0-sqMYTYTjJ2uKGc26_mgpUcT0" 
+  <img src="https://i.pinimg.com/736x/75/2d/95/752d956ef4f79f5453a2c57331feee0c.jpg" 
        alt="Islam Essam Profile Picture"
-       style="width: 200px; height: 200px; border-radius: 50%; object-fit: cover; border: 2px solid #ccc;" />
+       style="width: 200px; height: 200px; border-radius: 50%; object-fit: cover; border: 3px solid #4CAF50;" />
 </div>
 
-
-<h1 align="center">Hi 👋, I'm Islam Essam Saeed </h1>
-<h3 align="center">Cyber Security Researcher | Malware Analyst | Reverse Engineer</h3>
+<h1 align="center">Hi 👋, I'm <span style="color:#4CAF50;">Islam Essam Saeed</span></h1>
+<h3 align="center" style="color:#888;">Cyber Security Researcher | Malware Analyst | Reverse Engineer</h3>
 
 ---
 
@@ -87,7 +99,7 @@ order: 4
 - 🧬 **Malware Analysis Portfolio:** Hands-on reverse engineering of real malware samples (from _Practical Malware Analysis_).
 - 🛡️ **Detection Engineering:** Built custom YARA rules and Sigma rules to detect suspicious patterns in binaries and logs.
 - 🧾 **DFIR Automation Tools:** Developed scripts for registry analysis, file carving, and extracting indicators from memory dumps.
-- ✍️ **Writeups & Blogs:** [Check out my blog](https://0xavatar.github.io/) for write-ups on malware, forensics, SOC investigations and more.
+- ✍️ **Writeups & Blogs:** [Check out my blog](https://0xislvm.github.io/) for write-ups on malware, forensics, SOC investigations and more.
 
 ---
 
