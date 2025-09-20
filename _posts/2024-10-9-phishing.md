@@ -2,7 +2,7 @@
 title: EML File 
 description: analysis phishing mail attack.
 categories: [EML]
-date: 2024-10-11 00:33:00 +0800
+date: 2025-01-11 00:33:00 +0800
 tags: [phishing ,analysis]
 pin: true
 math: true
