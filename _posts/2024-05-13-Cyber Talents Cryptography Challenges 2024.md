@@ -1,5 +1,4 @@
 ---
-published: True
 title: Cyber Talents Cryptography Challenges 
 description: Cryptography Challenges cyber talents, Crack the Hash, RSA101, Guess The Password, Postbase, Hide Data, Hash3rror, UP, LOUDER, Encoding 1, Conjuring.
 categories: [CTF]
@@ -8,6 +7,7 @@ tags: [ctf ,cyber talents]
 pin: true
 math: true
 mermaid: true
+published: True
 image:
   path: "../assets/img/cyber talents cryptography/background.jpg"
   alt: Cryptography challenges from Cyber talents..
