@@ -184,20 +184,7 @@ index=main sourcetype=XmlWinEventLog:Microsoft-Windows-Sysmon/Operational EventC
 * **Domain/IP hosting beacon file:** `192.168.1.6` (logged at 2025-10-18 19:35:12.000)
 * **Process executing suspicious commands:** `powershell.exe`
 
----
 
-# Appendix A — Sysmon config snippet (example)
-
-```xml
-<!-- minimal snippet to show inclusion of process create & network events -->
-<Sysmon schemaversion="4.50">
-  <EventFiltering>
-    <ProcessCreate onmatch="include">
-      <CommandLine condition="contains">Invoke-WebRequest</CommandLine>
-    </ProcessCreate>
-    <NetworkConnect onmatch="include" />
-  </EventFiltering>
-</Sysmon>
 ---
 
 # Notes & Recommendations
@@ -205,4 +192,6 @@ index=main sourcetype=XmlWinEventLog:Microsoft-Windows-Sysmon/Operational EventC
 1. Use defensive detections for uncommon child->powershell chains and signed binary proxy executions (rundll32).
 2. Monitor scheduled tasks creation (event 4698 / task scheduler operational logs).
 3. Create a Splunk alert for repeated outbound HTTP connections to rare/unknown hosts.
+
+
 
